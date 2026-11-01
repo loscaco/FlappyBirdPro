@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flappy Bird Pro</title>
+
+  <!-- Twitter Player Card (importante) -->
+  <meta name="twitter:card" content="player" />
+  <meta name="twitter:site" content="@tu_usuario" />
+  <meta name="twitter:title" content="Flappy Bird Pro" />
+  <meta name="twitter:description" content="Jugá la versión más pulida y adictiva de Flappy Bird. Directo desde X." />
+  <meta name="twitter:image" content="https://loscaco.github.io/Flappy-Bird/preview.jpg" />
+  <meta name="twitter:player" content="https://loscaco.github.io/Flappy-Bird/play.html" />
+  <meta name="twitter:player:width" content="360" />
+  <meta name="twitter:player:height" content="640" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Flappy Bird Pro" />
+  <meta property="og:description" content="La versión más estilizada y entretenida de Flappy Bird" />
+  <meta property="og:image" content="https://loscaco.github.io/Flappy-Bird/preview.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://loscaco.github.io/Flappy-Bird/" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(160deg, #0a0a14 0%, #1a1a2e 50%, #16213e 100%);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 24px;
+    }
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px;
+      padding: 48px 40px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 42px;
+      font-weight: 900;
+      line-height: 1;
+      margin-bottom: 8px;
+      text-shadow: 0 4px 0 #e67e22;
+    }
+    h1 span {
+      display: block;
+      font-size: 18px;
+      color: #f1c40f;
+      letter-spacing: 3px;
+      margin-top: 6px;
+      text-shadow: none;
+    }
+    p {
+      color: rgba(255,255,255,0.6);
+      font-size: 15px;
+      margin: 20px 0 32px;
+      line-height: 1.5;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(180deg, #f7d060 0%, #e67e22 100%);
+      color: #2c1810;
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 16px;
+      padding: 16px 40px;
+      border-radius: 50px;
+      box-shadow: 0 6px 0 #c0392b, 0 12px 24px rgba(0,0,0,0.3);
+      transition: transform 0.15s, box-shadow 0.15s;
+      letter-spacing: 1px;
+    }
+    .btn:active {
+      transform: translateY(4px);
+      box-shadow: 0 2px 0 #c0392b, 0 6px 12px rgba(0,0,0,0.25);
+    }
+    .note {
+      margin-top: 28px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.35);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>FLAPPY<span>BIRD PRO</span></h1>
+    <p>Versión de producción. Física pulida, partículas, medallas y dificultad progresiva.</p>
+    <a class="btn" href="play.html">JUGAR AHORA</a>
+    <div class="note">Optimizado para Player Card de X</div>
+  </div>
+</body>
+</html>
